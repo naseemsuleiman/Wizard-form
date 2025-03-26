@@ -21,7 +21,7 @@ function Education() {
   };
 
   const handleBack = () => {
-    navigate('/work-experience', { state: { formData, preferences, experience } });
+    navigate('/experience', { state: { formData, preferences, experience } });
   };
 
   const handleNext = (e) => {
@@ -33,7 +33,7 @@ function Education() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-8">
 
       <div className="bg-white shadow-xl rounded-xl p-8 w-full max-w-xl">
-        <h2 className="text-3xl font-semibold text-center mb-6 text-gray-700">Education</h2>
+        <h2 className="text-3xl font-semibold text-center mb-6 text-gray-700">4/10 <br /> Education</h2>
         
         <form className="space-y-4" onSubmit={handleNext}>
           {education.map((edu, index) => (

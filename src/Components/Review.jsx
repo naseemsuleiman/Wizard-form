@@ -22,7 +22,7 @@ function Review() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-gray-100 to-blue-100 p-8">
       <div className="bg-white shadow-2xl rounded-2xl p-10 w-full max-w-2xl">
-        <h2 className="text-4xl font-bold text-center mb-6 text-blue-600">Submission Form</h2>
+        <h2 className="text-4xl font-bold text-center mb-6 text-blue-600">10/10 <br /> Submission Form</h2>
         <p className="text-center text-gray-600 mb-8">Please review the terms below and confirm your agreement before submitting.</p>
 
         <div className="mt-6 space-y-4">
