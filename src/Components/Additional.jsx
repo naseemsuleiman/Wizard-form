@@ -33,7 +33,7 @@ function Additional() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-8">
       <div className="bg-white shadow-xl rounded-xl p-8 w-full max-w-xl">
-        <h2 className="text-3xl font-semibold text-center mb-6 text-gray-700">7/10 <br /> Additional Information</h2>
+        <h2 className="text-3xl font-semibold text-center mb-6 text-gray-700">Step 7/10 <br /> Additional Information</h2>
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div>
             <label className="block text-lg font-semibold">Are you legally authorized to work in your country?</label>

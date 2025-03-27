@@ -33,7 +33,7 @@ function Preference() {
   return  (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-8">
       <div className="bg-white shadow-xl rounded-xl p-8 w-full max-w-xl">
-        <h2 className="text-3xl font-semibold text-center mb-6 text-gray-700">2/10 <br /> Job Preferences</h2>
+        <h2 className="text-3xl font-semibold text-center mb-6 text-gray-700">Step 2/10 <br /> Job Preferences</h2>
         <p className="text-gray-600 text-center mb-4">Welcome, {formData.firstName} {formData.lastName}!</p>
         <form className="space-y-4" onSubmit={handleNext}>
           <input type="text" name="jobTitle" placeholder="Desired Job Title" value={preferences.jobTitle} onChange={handleChange} className="w-full p-2 border border-gray-300 rounded-lg" required />
